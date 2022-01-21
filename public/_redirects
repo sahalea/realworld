@@ -1,0 +1,4 @@
+/api/* http://143.110.245.54:3001/:splat 200
+/uploads/* http://143.110.245.54:3001/uploads/:splat 200
+/graphql http://143.110.245.54:3001/graphql 200
+/* /index.html 200
