@@ -21,7 +21,9 @@
         </div>
       </div>
       <div class="py-3">
-        <h1 class="text-xl mb-1" @click="navigate(item)">{{ item.title }}</h1>
+        <h1 class="text-xl mb-1 cursor-pointer" @click="navigate(item)">
+          {{ item.title }}
+        </h1>
         <p class="text-sm text-gray-500">
           {{ item.description }}
         </p>
